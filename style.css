@@ -1499,7 +1499,7 @@ html {
         font-size: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__content {
-        background-image: url(./images/tablet.png);
+        //background-image: url(./images/tablet.png);
         background-position: bottom left;
         background-repeat: no-repeat;
     }
