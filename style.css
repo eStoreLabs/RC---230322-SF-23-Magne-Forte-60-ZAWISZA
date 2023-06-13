@@ -1498,11 +1498,11 @@ html {
     #es-magne-b6.es-magne-b6 .es-choose__text {
         font-size: 24px;
     }
-    #es-magne-b6.es-magne-b6 .es-ingredients__content {
-        //background-image: url(./images/tablet.png);
+    /* #es-magne-b6.es-magne-b6 .es-ingredients__content {
+        background-image: url(./images/tablet.png);
         background-position: bottom left;
         background-repeat: no-repeat;
-    }
+    } */
     #es-magne-b6.es-magne-b6 .es-ingredients__title {
         font-size: 40px;
     }
