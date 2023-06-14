@@ -2,9 +2,9 @@
 Forte 60 będzie tak samo
 ## LIVE SITE LINK 
 <!-- please enter link to site preview here -->
-![Project live site](https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-GENERIC/)
+[Project live site](https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-GENERIC/)
 ## PROJECT PREVIEW
-![Design preview for the project](./link)
+[Design preview for the project](./link)
 
 
 ### LINKS TO DESIGNS (in .xd or .psd)
