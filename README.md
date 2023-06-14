@@ -20,6 +20,9 @@ Zawisza
 
 ### E-RETAILER’S SPECIFICATION (technical guidelines; html, css, graphics, photos, resolution)
 <!-- please enter any additional comments important for the project -->
+Osobnego designu nie mam, będzie taki sam jak na Melissa tylko bez sekcji selfcare. Bez tego:
+"jak radzić sobie ze stresem?" i linki do bloga (bo to tylko Melissy blog jest)
+
 ## APTEKA ZAWISZY
 
 They use wysiwyg code editor
