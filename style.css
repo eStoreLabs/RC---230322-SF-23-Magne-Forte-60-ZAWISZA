@@ -1,16 +1,19 @@
 @font-face {
     font-family: 'Bliss';
-    src: url("./fonts/Bliss2-Bold.otf") format("OpenType");
+    src: url("./fonts/Bliss2-Bold.woff") format("woff");
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy SemiBold';
-    src: url("./fonts/Gilroy-SemiBold.ttf") format("TrueType");
+    src: url("./fonts/Gilroy-SemiBold.woff") format("woff");
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy';
-    src: url("./fonts/Gilroy-Regular.ttf") format("TrueType");
+    src: url("./fonts/Gilroy-Regular.woff") format("woff");
+    font-display: swap;
   }
 
 html {
