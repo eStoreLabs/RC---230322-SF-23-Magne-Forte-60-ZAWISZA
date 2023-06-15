@@ -29,10 +29,10 @@ Osobnego designu nie mam, będzie taki sam jak na Melissa tylko bez sekcji selfc
 
 ~~2. Do not use `<span>` tags, they are deleted. //test: try to use `<em>` tag instead with `font-style: normal`.~~
 
-3. JavaScript,CSS and  images have to be from outside source ( ex. dropbox etc)
+~~3. JavaScript,CSS and  images have to be from outside source ( ex. dropbox etc)~~
 
 4. Avoid adding similar code next to another without <div> container
-
+//test: ignore this
 
 instead of:
 `<a></a>`
@@ -47,7 +47,7 @@ Do this:
 
 ~~5. Do not use `<h1>,<h2>, <h3>` ets. tags   use `<p>` only~~
 
-6. Implement style file from outside source by using below code:
+~~6. Implement style file from outside source by using below code:~~
 ```
  <script>
       function getStyles(href) {
