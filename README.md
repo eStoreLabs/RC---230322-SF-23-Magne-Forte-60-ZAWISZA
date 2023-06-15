@@ -25,11 +25,9 @@ Osobnego designu nie mam, będzie taki sam jak na Melissa tylko bez sekcji selfc
 
 ## APTEKA ZAWISZY
 
-They use wysiwyg code editor
+~~1. Supports only HTML4 code!~~
 
-1. Supports only HTML4 code!
-
-2. Do not use `<span>` tags, they are deleted. //test: try to use `<em>` tag instead with `font-style: normal`.
+~~2. Do not use `<span>` tags, they are deleted. //test: try to use `<em>` tag instead with `font-style: normal`.~~
 
 3. JavaScript,CSS and  images have to be from outside source ( ex. dropbox etc)
 
@@ -47,7 +45,7 @@ Do this:
 `<div><a></a></div>`
 `<div><a></a></div>`
 
-5. Do not use `<h1>,<h2>, <h3>` ets. tags   use `<p>` only
+~~5. Do not use `<h1>,<h2>, <h3>` ets. tags   use `<p>` only~~
 
 6. Implement style file from outside source by using below code:
 ```
@@ -69,6 +67,6 @@ Do this:
       };
     </script>
 ```
-  7. Make sure to close `<img>` and `<a>` tags in one line. If not they close them in their editor by adding additional `„/>”` (default action)
+  ~~7. Make sure to close `<img>` and `<a>` tags in one line. If not they close them in their editor by adding additional `„/>”` (default action)~~
   
-  8. Do not use external source code: sliders/carousels from slider.js, slick-carousel, owl carousel etc. Needs to be coded without external sources.
+  ~~8. Do not use external source code: sliders/carousels from slider.js, slick-carousel, owl carousel etc. Needs to be coded without external sources.~~
