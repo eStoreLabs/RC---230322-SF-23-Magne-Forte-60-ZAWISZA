@@ -14,8 +14,8 @@
 
   @font-face {
     font-family: 'Gilroy';
-    src: url("./fonts/Gilroy-Regular\ \(1\).woff") format("woff");
-    font-weight: 400;
+    src: url("./fonts/Gilroy-Light.woff") format("woff");
+    font-weight: 300;
     font-display: swap;
   }
 
