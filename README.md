@@ -70,3 +70,6 @@ Do this:
   ~~7. Make sure to close `<img>` and `<a>` tags in one line. If not they close them in their editor by adding additional `„/>”` (default action)~~
   
   ~~8. Do not use external source code: sliders/carousels from slider.js, slick-carousel, owl carousel etc. Needs to be coded without external sources.~~
+
+todo: fix font weight, especially in footer, but something is wrong with the font file.
+NEED FONT FILE FROM DESIGNER
