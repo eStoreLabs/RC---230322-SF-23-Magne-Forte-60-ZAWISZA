@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Bliss';
-    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/fonts/Bliss2-Bold.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/fonts/Bliss2-Bold.woff") format("woff");
     font-weight: 600;
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy SemiBold';
-    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
     font-weight: 600;
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy';
-    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/fonts/Gilroy-Regular.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/fonts/Gilroy-Regular.woff") format("woff");
     font-weight: 400;
     font-display: swap;
   }
@@ -190,7 +190,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits {
-    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-4.webp);
+    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: -32px;
@@ -329,7 +329,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms {
-    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-3.webp);
+    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/background-3.webp);
     background-position: top left;
     background-repeat: no-repeat;
     position: relative;
@@ -636,7 +636,7 @@ html {
 
 #es-magne-b6.es-magne-b6 .es-choose {
     margin-bottom: 32px;
-    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-4.webp);
+    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: -96px;
