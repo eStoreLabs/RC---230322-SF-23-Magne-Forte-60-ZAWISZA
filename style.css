@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Bliss';
-    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/fonts/Bliss2-Bold.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/fonts/Bliss2-Bold.woff") format("woff");
     font-weight: 600;
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy SemiBold';
-    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
     font-weight: 600;
     font-display: swap;
   }
 
   @font-face {
     font-family: 'Gilroy';
-    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/fonts/Gilroy-Regular.woff") format("woff");
+    src: url("https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/fonts/Gilroy-Light.woff") format("woff");
     font-weight: 400;
     font-display: swap;
   }
@@ -65,18 +65,21 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 .es-kv__background {
-    display: none;
+    /* display: none; */
+    position: absolute;
 }
 
 #es-magne-b6.es-magne-b6 .es-kv__title {
     margin: 0;
     padding: 0;
+    margin-left: 5%;
+    padding-top: 5%;
     line-height: 0.8;
     color: inherit;
     font-family: "Bliss";
     font-size: 48px;
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
     text-shadow: 0px 0px 5px #7999cf;
     position: relative;
     z-index: 5;
@@ -85,17 +88,19 @@ html {
 
 #es-magne-b6.es-magne-b6 .es-kv__subtitle {
     margin: 0;
+    margin-left: 5%;
     padding: 0;
     line-height: 1;
     color: inherit;
     font-family: "Bliss";
     font-size: 20px;
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
     text-shadow: 0px 0px 5px #7999cf;
     position: relative;
     z-index: 5;
     margin-bottom: 20%;
+    max-width: 243px;
 }
 
 #es-magne-b6.es-magne-b6 .es-kv__packshot {
@@ -190,7 +195,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits {
-    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/background-4.webp);
+    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: -32px;
@@ -329,7 +334,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms {
-    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/background-3.webp);
+    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-3.webp);
     background-position: top left;
     background-repeat: no-repeat;
     position: relative;
@@ -636,7 +641,7 @@ html {
 
 #es-magne-b6.es-magne-b6 .es-choose {
     margin-bottom: 32px;
-    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/background-4.webp);
+    background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: -96px;
@@ -707,7 +712,7 @@ html {
     line-height: inherit;
     color: #001883;
     font-family: "Gilroy SemiBold";
-    font-size: 40px;
+    font-size: 32px;
     text-transform: uppercase;
     text-align: center;
     padding-top: 32px;
@@ -1118,7 +1123,8 @@ html {
         max-width: 90%;
     }
     #es-magne-b6.es-magne-b6 .es-kv__background {
-        display: block;
+        /* display: block; */
+        position: static;
     }
     #es-magne-b6.es-magne-b6 .es-kv__title {
         text-align: left;
@@ -1128,7 +1134,7 @@ html {
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
         text-align: left;
         margin-left: 5%;
-        max-width: 300px;
+        /* max-width: 300px; */
     }
     #es-magne-b6.es-magne-b6 .es-kv__packshot {
         padding-bottom: 0;
@@ -1343,6 +1349,11 @@ html {
     }
 }
 
+@media screen and (min-width: 390px) {
+    #es-magne-b6.es-magne-b6 .es-kv__subtitle {
+      max-width: 300px;
+    }
+  }
 
 @media screen and (min-width: 777px){
     #es-magne-b6.es-magne-b6 .es-kv__title {
