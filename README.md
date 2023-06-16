@@ -1,5 +1,5 @@
-# 230322 SF 23 Magne Forte 100 adaptacja na aptekę zawiszy
-Forte 60 będzie tak samo
+# 230322 SF 23 Magne Forte 60 adaptacja na aptekę zawiszy
+nie z generyka, tylko bezposrednio z forte 100
 ## LIVE SITE LINK 
 <!-- please enter link to site preview here -->
 [Project live site](https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-GENERIC/)
