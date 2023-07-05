@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magne B6 FORTE 60</title>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="es-magne-b6" id="es-magne-b6">
@@ -70,27 +70,26 @@
             <p class="es-benefits__text">poprawia pamięć <br> i&nbsp;koncentrację<sup class="es-index">8</sup></p>
           </div>
         </div>
-        <input type="checkbox" id="es-benefits-expand-toggle" />
+        
         <p class="es-benefits__subtitle">Dowiedz się więcej</p>
-        <label for="es-benefits-expand-toggle" id="es-benefits-expand-btn">
-          <div class="es-benefits__btn">
+        <button type="button" class="es-collapsible es-benefits__btn">
+          <p class="es-benefits__btnTXT" id="es-benefits__btnTXT">ROZWIŃ</p>
+        </button>
+          <!-- <div class="es-benefits__btn">
             <p class="es-benefits__btnTXT">ROZWIŃ</p>
             <img src="https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp" alt="" class="es-benefits__img es-benefits__arrow" />
-          </div>
-        </label>
-        <div class="es-benefits__hidden" id="es-benefits__hidden">
+          </div> -->
+        
+        
           <p class="es-benefits__desc">
             Magnez to pierwiastek, który ma bardzo ważne znaczenie dla naszego zdrowia. Odpowiada m.in. za&nbsp;pracę naszych nerwów, wpływa na&nbsp;pracę serca, ciśnienie krwi oraz utrzymanie mocnych kości.<sup class="es-index">7</sup>
             <br><br>
             Jeśli czujesz, że zmęczenie, wahania nastroju i&nbsp;drażliwość<sup class="es-index">7</sup> przeszkadzają Ci w&nbsp;codziennym życiu, sięgnij po lek Magne B<sub class="es-index">6</sub> Forte i&nbsp;uzupełnij poziom magnezu w&nbsp;organizmie.
           </p>
-          <label for="es-benefits-expand-toggle" id="es-benefits-expand-btn-2">
-            <div class="es-benefits__btn">
-              <p class="es-benefits__btnTXT">ZWIŃ</p>
-              <img src="https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp" alt="" class="es-benefits__img es-benefits__arrow es-benefits__arrow--2" />
-            </div>
-          </label>
-        </div>
+        
+          
+          
+        
       </div>
 
       <div class="es-symptoms">
@@ -355,7 +354,7 @@
       </div>
 
     </div>
-    <script>
+    <!-- <script>
       function getStyles(href) {
         var head = document.getElementsByTagName("head")[0];
         var link = document.createElement("link");
@@ -371,6 +370,28 @@
           );
         }
       };
+    </script> -->
+    <script>
+      var coll = document.getElementsByClassName("es-collapsible");
+      let zwin = document.getElementById("es-benefits__btnTXT");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      zwin.innerHTML = "ROZWIŃ";
+    } else {
+      content.style.display = "block";
+      zwin.innerHTML = "ZWIŃ";
+    }
+    
+    
+  });
+  
+}
     </script>
   </body>
 </html>
