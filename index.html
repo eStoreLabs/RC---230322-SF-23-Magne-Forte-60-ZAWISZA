@@ -332,15 +332,15 @@
 
     <div class="es-cross">
       <p class="es-cross__title">RODZINA MAGNE B<sub class="es-index">6</sub><sup class="es-index">®</sup></p>
-      <input type="checkbox" id="es-cross-expand-toggle" />
+      
       <img
         src="https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/cross-1.webp"
         alt="" class="es-cross__img" id="es-cross-packshot" />
-      <label for="es-cross-expand-toggle" id="es-cross-expand-btn">
-        <div class="es-cross__btn es-cross__btn--mobile">
+      
+        <button type="button" class="es-cross__btn es-cross__btn--mobile">
           Poznaj wszystkie produkty
-        </div>
-      </label>
+        </button>
+      
       <div class="es-cross__hidden" id="es-cross__hidden">
         <p class="es-cross__subtitle">Sprawdź leki bez recepty</p>
         <div class="es-cross__content">
@@ -555,6 +555,17 @@
       btnIngrTxtTop.innerHTML = "ROZWIŃ";
       btnIngrShow.classList.remove("active");
     });
+
+    // button revealing cross sell on mobile
+    let btnShowCrossSell = document.getElementsByClassName("es-cross__btn")[0];
+
+    btnShowCrossSell.addEventListener('click', function() {
+      this.classList.toggle('active');
+      let content = document.getElementById('es-cross__hidden');
+      content.style.display = "block";
+      this.style.display = "none";
+      document.getElementById("es-cross-packshot").style.display = "none";
+    })
 
   </script>
 </body>
