@@ -166,7 +166,7 @@ html {
     padding-bottom: 32px;
 }
 #es-magne-b6.es-magne-b6 .es-features__single {
-    width: 160px;
+    width: 142px;
 }
 
 #es-magne-b6.es-magne-b6 .es-features__text {
@@ -285,6 +285,9 @@ html {
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+    outline: none;
+    border: none;
+    color: #FFF;
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits__btnTXT {
@@ -306,32 +309,23 @@ html {
     font-family: "Gilroy SemiBold";
     font-size: inherit;
     text-align: center;
-}
-
-#es-magne-b6.es-magne-b6 #es-benefits-expand-toggle {
     display: none;
+    overflow: hidden;
 }
 
-#es-magne-b6.es-magne-b6 #es-benefits-expand-toggle:checked ~ #es-benefits__hidden {
-    visibility: visible;
-    height: auto;
-    opacity: 1;
+#es-magne-b6.es-magne-b6 .es-collapsible:after {
+    content: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp"); /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
 }
 
-#es-magne-b6.es-magne-b6 #es-benefits-expand-toggle:checked ~ #es-benefits-expand-btn {
-    display: none;
-}
+#es-magne-b6.es-magne-b6 .active:after {
+    transform: rotate(180deg);
+    transform-origin: center;
+  }
 
-#es-magne-b6.es-magne-b6 #es-benefits-expand-toggle:checked ~ .es-benefits__subtitle {
-    display: none;
-}
-
-#es-magne-b6.es-magne-b6 .es-benefits__hidden {
-    visibility: collapse;
-    height: 0px;
-    opacity: 0;
-    transition: all 0.3s ease-out;
-}
 
 #es-magne-b6.es-magne-b6 .es-symptoms {
     background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-3.webp);
@@ -593,7 +587,15 @@ html {
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+#es-magne-b6.es-magne-b6 .es-dose__btn:after {
+    content: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp");
+}
 
+#es-magne-b6.es-magne-b6  #es-dose__btn--hide:after {
+    transform: rotate(180deg);
 }
 
 #es-magne-b6.es-magne-b6 .es-dose__btnTXT {
@@ -618,25 +620,15 @@ html {
     margin-bottom: 16px;
 }
 
-#es-magne-b6.es-magne-b6 #es-dose-expand-toggle {
-    display: none;
-}
 
-#es-magne-b6.es-magne-b6 #es-dose-expand-toggle:checked ~ #es-dose__hidden {
-    visibility: visible;
-    height: auto;
-    opacity: 1;
-}
-
-#es-magne-b6.es-magne-b6 #es-dose-expand-toggle:checked ~ #es-dose-expand-btn {
-    display: none;
-}
 
 #es-magne-b6.es-magne-b6 .es-dose__hidden {
-    visibility: collapse;
-    height: 0px;
-    opacity: 0;
+    /* visibility: collapse; */
+    /* height: 0px; */
+    /* opacity: 0; */
     transition: all 0.3s ease-out;
+    display: none;
+    overflow: hidden;
 }
 
 #es-magne-b6.es-magne-b6 .es-choose {
@@ -794,6 +786,14 @@ html {
     align-items: center;
     position: relative;
     cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+#es-magne-b6.es-magne-b6 .es-ingredients__btn:after {
+    content: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp");
+}
+#es-magne-b6.es-magne-b6 .es-ingredients__btn--hide:after {
+    transform: rotate(180deg);
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__btnTXT {
@@ -817,25 +817,11 @@ html {
     text-align: center;
 }
 
-#es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle {
-    display: none;
-}
 
-#es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle:checked ~ #es-ingredients__hidden {
-    visibility: visible;
-    height: auto;
-    opacity: 1;
-}
-
-#es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle:checked ~ #es-ingredients-expand-btn {
-    display: none;
-}
 
 #es-magne-b6.es-magne-b6 .es-ingredients__hidden {
-    visibility: collapse;
-    height: 0px;
-    opacity: 0;
     transition: all 0.3s ease-out;
+    display: none;
 }
 
 #es-magne-b6.es-magne-b6 .es-info {
@@ -894,6 +880,7 @@ html {
     background: linear-gradient(90deg, rgba(208,231,255,1) 0%, rgba(255,255,255,1) 50%, rgba(216,232,249,1) 100%);
     margin-bottom: 32px;
     margin-top: -128px;
+    padding-bottom: 16px;
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__img {
@@ -955,6 +942,9 @@ html {
     white-space: nowrap;
     width: 260px;
     cursor: pointer;
+    margin: auto;
+    display: block;
+    border: none;
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__name {
@@ -973,32 +963,12 @@ html {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding-bottom: 64px;
 }
 
-#es-magne-b6.es-magne-b6 #es-cross-expand-toggle {
-    display: none;
-}
 
-#es-magne-b6.es-magne-b6 #es-cross-expand-toggle:checked ~ #es-cross__hidden {
-    visibility: visible;
-    height: auto;
-    opacity: 1;
-}
-
-#es-magne-b6.es-magne-b6 #es-cross-expand-toggle:checked ~ #es-cross-expand-btn {
-    display: none;
-}
-
-#es-magne-b6.es-magne-b6 #es-cross-expand-toggle:checked ~ #es-cross-packshot {
-    display: none;
-}
 
 #es-magne-b6.es-magne-b6 .es-cross__hidden {
-    visibility: collapse;
-    height: 0px;
-    opacity: 0;
-    transition: all 0.3s ease-out;
+    display: none;
 }
 
 #es-magne-b6.es-magne-b6 .es-deal__img {
@@ -1387,7 +1357,6 @@ html {
     }
     #es-magne-b6.es-magne-b6 .es-benefits__desc {
         padding-inline: 64px;
-        padding-top: 48px;
         padding-bottom: 96px;
         font-size: 24px;
     }
