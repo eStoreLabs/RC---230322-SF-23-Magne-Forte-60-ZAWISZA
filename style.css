@@ -587,7 +587,15 @@ html {
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+#es-magne-b6.es-magne-b6 .es-dose__btn:after {
+    content: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp");
+}
 
+#es-magne-b6.es-magne-b6  #es-dose__btn--hide:after {
+    transform: rotate(180deg);
 }
 
 #es-magne-b6.es-magne-b6 .es-dose__btnTXT {
@@ -612,25 +620,15 @@ html {
     margin-bottom: 16px;
 }
 
-#es-magne-b6.es-magne-b6 #es-dose-expand-toggle {
-    display: none;
-}
 
-#es-magne-b6.es-magne-b6 #es-dose-expand-toggle:checked ~ #es-dose__hidden {
-    visibility: visible;
-    height: auto;
-    opacity: 1;
-}
-
-#es-magne-b6.es-magne-b6 #es-dose-expand-toggle:checked ~ #es-dose-expand-btn {
-    display: none;
-}
 
 #es-magne-b6.es-magne-b6 .es-dose__hidden {
-    visibility: collapse;
-    height: 0px;
-    opacity: 0;
+    /* visibility: collapse; */
+    /* height: 0px; */
+    /* opacity: 0; */
     transition: all 0.3s ease-out;
+    display: none;
+    overflow: hidden;
 }
 
 #es-magne-b6.es-magne-b6 .es-choose {
@@ -788,6 +786,14 @@ html {
     align-items: center;
     position: relative;
     cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+#es-magne-b6.es-magne-b6 .es-ingredients__btn:after {
+    content: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp");
+}
+#es-magne-b6.es-magne-b6 .es-ingredients__btn--hide:after {
+    transform: rotate(180deg);
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__btnTXT {
@@ -811,25 +817,11 @@ html {
     text-align: center;
 }
 
-#es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle {
-    display: none;
-}
 
-#es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle:checked ~ #es-ingredients__hidden {
-    visibility: visible;
-    height: auto;
-    opacity: 1;
-}
-
-#es-magne-b6.es-magne-b6 #es-ingredients-expand-toggle:checked ~ #es-ingredients-expand-btn {
-    display: none;
-}
 
 #es-magne-b6.es-magne-b6 .es-ingredients__hidden {
-    visibility: collapse;
-    height: 0px;
-    opacity: 0;
     transition: all 0.3s ease-out;
+    display: none;
 }
 
 #es-magne-b6.es-magne-b6 .es-info {
