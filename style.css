@@ -275,6 +275,7 @@ html {
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits__btn {
+   
     margin: 0 auto;
     padding: 0;
     margin-bottom: 24px;
@@ -285,15 +286,15 @@ html {
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
-    outline: none;
     border: none;
     color: #FFF;
 }
 
+#es-magne-b6.es-magne-b6 .es-benefits__btn::after {
+    content: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp);
+}
+
 #es-magne-b6.es-magne-b6 .es-benefits__btnTXT {
-    margin: 0;
-    padding: 12px 0;
-    line-height: inherit;
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-size: 20px;
@@ -303,22 +304,13 @@ html {
 
 #es-magne-b6.es-magne-b6 .es-benefits__desc {
     margin: 0;
-    padding: 16px;
+    padding: 20px;
     line-height: inherit;
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-size: inherit;
     text-align: center;
     display: none;
-    overflow: hidden;
-}
-
-#es-magne-b6.es-magne-b6 .es-collapsible:after {
-    content: url("https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-60-ZAWISZA/main/images/arrow-white.webp"); /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
 }
 
 #es-magne-b6.es-magne-b6 .active:after {
@@ -326,6 +318,9 @@ html {
     transform-origin: center;
   }
 
+  #es-magne-b6.es-magne-b6 details > summary {
+    list-style: none;
+  }
 
 #es-magne-b6.es-magne-b6 .es-symptoms {
     background-image: url(https://raw.githubusercontent.com/eStoreLabs/RC---230322-SF-23-Magne-Forte-100-ZAWISZA/main/images/background-3.webp);
@@ -883,6 +878,12 @@ html {
     padding-bottom: 16px;
 }
 
+#es-magne-b6.es-magne-b6 .es-cross__packshot {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 #es-magne-b6.es-magne-b6 .es-cross__img {
     max-width: 100%;
     display: block;
@@ -916,6 +917,19 @@ html {
     margin-bottom: 32px;
 }
 
+#es-magne-b6.es-magne-b6 .es-cross__mobile-hidden {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    #es-magne-b6.es-magne-b6 .es-cross__packshot {
+        display: none;
+    }
+    #es-magne-b6.es-magne-b6 .es-cross__mobile-hidden {
+        display: block;
+    }
+}
+
 #es-magne-b6.es-magne-b6 .es-cross__btn {
     margin: 0 auto;
     padding: 12px 24px;
@@ -931,20 +945,20 @@ html {
     margin-bottom: 32px;
 }
 
+#es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
+    white-space: nowrap;
+    /* width: 260px; */
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border: none;
+}
+
 #es-magne-b6.es-magne-b6 .es-cross__single {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-}
-
-#es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
-    white-space: nowrap;
-    width: 260px;
-    cursor: pointer;
-    margin: auto;
-    display: block;
-    border: none;
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__name {
@@ -965,11 +979,6 @@ html {
     gap: 32px;
 }
 
-
-
-#es-magne-b6.es-magne-b6 .es-cross__hidden {
-    display: none;
-}
 
 #es-magne-b6.es-magne-b6 .es-deal__img {
     max-width: 100%;
@@ -1050,7 +1059,7 @@ html {
     line-height: inherit;
 }
 #es-magne-b6.es-magne-b6 .es-bold {
-    /* font-family: "Gilroy SemiBold"; */
+     font-family: "Gilroy SemiBold";
 }
 #es-magne-b6.es-magne-b6 .es-footer__content {
     display: flex;
@@ -1085,6 +1094,7 @@ html {
     color: #962d38;
     font-size: inherit;
     text-align: left;
+    font-weight: 600;
 }
 
 
@@ -1494,21 +1504,16 @@ html {
     #es-magne-b6.es-magne-b6 .es-cross__btn {
         font-size: 20px;
     }
-    #es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
+    /* #es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
         display: none;
-    }
-    #es-magne-b6.es-magne-b6 .es-cross__hidden {
-        display: block;
-        visibility: visible;
-        height: auto;
-        opacity: 1;
-    }
+    } */
+
     #es-magne-b6.es-magne-b6 .es-cross__title {
         font-size: 40px;
     }
-    #es-magne-b6.es-magne-b6 #es-cross-packshot {
+    /* #es-magne-b6.es-magne-b6 .es-cross__packshot {
         display: none;
-    }
+    } */
     #es-magne-b6.es-magne-b6 .es-deal__title {
         font-size: 40px;
     }
